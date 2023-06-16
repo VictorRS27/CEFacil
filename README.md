@@ -33,5 +33,5 @@ Se você deseja contribuir para o desenvolvimento deste projeto, sinta-se à von
 
 ## Contato
 
-Em caso de dúvidas ou sugestões, entre em contato com a equipe de desenvolvimento através do e-mail: [contato@exemplo.com](mailto:contato@exemplo.com)
+Em caso de dúvidas ou sugestões, entre em contato com a equipe de desenvolvimento através do e-mail: [contato@exemplo.com](testecefacil@gmail.com)
 
