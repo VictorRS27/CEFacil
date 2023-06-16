@@ -10,7 +10,7 @@ Este projeto é um sistema online de reserva de espaços do CEFER (Centro de Edu
 
 ## Como usar
 
-1. Acesse o sistema de reserva de espaços do CEFER através do link [aqui](link_do_sistema).
+1. Acesse o sistema de reserva de espaços do CEFER através do link [aqui](https://docs.google.com/forms/d/1y04oLFEBABJPmNwnHMiezx-f9KxPb_EMx7QqcGkMfd4/viewform?edit_requested=true).
 2. Consulte a disponibilidade dos espaços desejados no calendário.
 3. Selecione o espaço e o horário desejados.
 4. Preencha os dados necessários para fazer a reserva.
@@ -25,8 +25,6 @@ O sistema não contempla a reserva de materiais esportivos, como bolas, raquetes
 ## Tecnologias Utilizadas
 
 - Linguagem de programação: [Python](https://www.python.org/)
-- Framework web: [Django](https://www.djangoproject.com/)
-- Banco de dados: [MySQL](https://www.mysql.com/)
 - Frontend: HTML, CSS, JavaScript
 
 ## Contribuição
