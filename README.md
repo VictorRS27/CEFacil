@@ -26,6 +26,7 @@ O sistema não contempla a reserva de materiais esportivos, como bolas, raquetes
 
 - Linguagem de programação: [Python](https://www.python.org/)
 - Frontend: HTML, CSS, JavaScript
+- Google API
 
 ## Contribuição
 
