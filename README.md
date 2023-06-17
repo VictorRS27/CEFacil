@@ -28,11 +28,14 @@ O sistema não contempla a reserva de materiais esportivos, como bolas, raquetes
 - Frontend: HTML, CSS, JavaScript
 - Google API
 
+## Para utilizar:
+Crie uma credencial de cliente no site do Google APIs e coloque o arquivo.json que ele te oferece na mesma pasta que o código main.py, só irá funcionar se for uma conta de email @usp.br
+
 ## Contribuição
 
 Se você deseja contribuir para o desenvolvimento deste projeto, sinta-se à vontade para clonar o repositório e enviar suas sugestões e melhorias através de pull requests. Ficaremos felizes em receber sua contribuição!
 
 ## Contato
 
-Em caso de dúvidas ou sugestões, entre em contato com a equipe de desenvolvimento através do e-mail: [contato@exemplo.com](testecefacil@gmail.com)
+Em caso de dúvidas ou sugestões, entre em contato com a equipe de desenvolvimento através do e-mail: [nosso email](testecefacil@gmail.com)
 
