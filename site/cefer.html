@@ -1,54 +1,192 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>CEFER - USP</title>
-	<link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CEFER - USP</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      background-color: #007bff;
+      color: #fff;
+      padding: 10px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    header h1 {
+      display: flex;
+      align-items: center;
+      font-size: 20px;
+      margin-left: 4vw;
+    }
+
+    header h1 img {
+      width: 10vw;
+      height: 10vw;
+      border-radius: 50%;
+      margin-left: 4vw;
+      margin-right: 4vw;
+    }
+
+    header nav ul {
+      display: flex;
+      list-style: none;
+      margin: 0;
+      padding: 0;
+    }
+
+    header nav ul li {
+      margin-right: 5vw;
+    }
+
+    header nav ul li a {
+      color: #fff;
+      text-decoration: none;
+    }
+
+    main {
+      max-width: 800px;
+      margin: 20px auto;
+      padding: 0 20px;
+    }
+
+    h2 {
+      color: #007bff;
+      font-size: 24px;
+      margin-top: 30px;
+    }
+
+    p {
+      line-height: 1.5;
+      margin-bottom: 20px;
+    }
+
+    ul {
+      margin-bottom: 20px;
+    }
+
+    ul li {
+      list-style: disc;
+      margin-left: 20px;
+    }
+
+    .image-container {
+      display: flex;
+      flex-wrap: nowrap;
+      overflow-x: scroll;
+      scroll-snap-type: x mandatory;
+      -webkit-overflow-scrolling: touch;
+      justify-items: center;
+    }
+
+    .image-container img {
+      width: 100%;
+      min-width: 200px;
+      max-width: 600px;
+      height: auto;
+      scroll-snap-align: start;
+    }
+  </style>
 </head>
+
 <body>
-	<header>
-		<h1>CEFER</h1>
-		<nav>
-			<ul>
-                <li><a href="cefer.html">CEFER</a></li>
-                <li><a href="home.html">Reservar</a></li>
-                <li><a href="about.html">Sobre Nós</a></li>
-			</ul>
-		</nav>
-	</header>
-	<main>
-		<h2>Sobre o CEFER</h2>
-		<p>O CEFER (Centro de Práticas Esportivas da Universidade de São Paulo) é um centro esportivo localizado no campus da Universidade de São Paulo (USP) em São Carlos, Brasil. É uma instalação de última geração dedicada a promover a prática de esportes e atividades físicas para alunos, professores, funcionários e a comunidade em geral.</p>
+  <header>
+    <h1>
+      <img src="imgs/logoCEFER.jpeg" alt="CEFER Logo">
+      CEFER - USP
+    </h1>
+    <nav>
+      <ul>
+        <li><a href="cefer.html">CEFER</a></li>
+        <li><a href="home.html">Reservar</a></li>
+        <li><a href="about.html">Sobre Nós</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <div class="image-container">
+      <img src="imgs/ginasio.jpg" alt="Ginásio">
+      <img src="imgs/piscina.jpeg" alt="Piscina">
+      <img src="imgs/rugby.jpg" alt="Rugby">
+      <img src="imgs/yoga_ginasio.jpeg" alt="Yoga no Ginásio">
+    </div>
+    <h2>Sobre o CEFER</h2>
+    <p>O CEFER (Centro de Práticas Esportivas da Universidade de São Paulo) é um centro esportivo localizado no campus da Universidade de São Paulo (USP) em São Carlos, Brasil. É uma instalação de última geração dedicada a promover a prática de esportes e atividades físicas para alunos, professores, funcionários e a comunidade em geral.</p>
 
-		<h2>Instalações</h2>
-		<p>O CEFER oferece uma ampla variedade de instalações esportivas que atendem a vários interesses e disciplinas. Algumas das instalações disponíveis incluem:</p>
-		<ul>
-			<li>Quadras cobertas e descobertas para esportes como basquete, vôlei e tênis</li>
-			<li>Piscina com raias designadas para diferentes níveis de habilidade</li>
-			<li>Pista de atletismo para corrida, sprint e eventos de campo</li>
-			<li>Campos de futebol para partidas e treinamentos</li>
-			<li>Ginásio equipado com equipamentos de condicionamento físico para exercícios de força e cardio</li>
-			<li>Estúdios de dança para aulas em grupo de condicionamento físico</li>
-		</ul>
+    <h2>Instalações</h2>
+    <p>O CEFER oferece uma ampla variedade de instalações esportivas que atendem a vários interesses e disciplinas. Algumas das instalações disponíveis incluem:</p>
+    <ul>
+      <li>Quadras cobertas e descobertas para esportes como basquete, vôlei e tênis</li>
+      <li>Piscina com raias designadas para diferentes níveis de habilidade</li>
+      <li>Pista de atletismo para corrida, sprint e eventos de campo</li>
+      <li>Campos de futebol para partidas e treinamentos</li>
+      <li>Ginásio equipado com equipamentos de condicionamento físico para exercícios de força e cardio</li>
+      <li>Estúdios de dança para aulas em grupo de condicionamento físico</li>
+    </ul>
 
-		<h2>Atividades e Programas</h2>
-		<p>O CEFER oferece uma variedade de atividades e programas para promover o esporte e o bem-estar físico. Algumas das atividades e programas incluem:</p>
-		<ul>
-			<li>Torneios e ligas esportivas</li>
-			<li>Aulas de natação para iniciantes e nadadores avançados</li>
-			<li>Aulas em grupo de condicionamento físico, como aeróbica, yoga e Zumba</li>
-			<li>Sessões de treinamento personalizado</li>
-			<li>Camps e workshops esportivos</li>
-			<li>Eventos especiais e palestras de convidados sobre temas relacionados a esportes e condicionamento físico</li>
-		</ul>
+    <h2>Atividades e Programas</h2>
+    <p>O CEFER oferece uma variedade de atividades e programas para promover o esporte e o bem-estar físico. Algumas das atividades e programas incluem:</p>
+    <ul>
+      <li>Torneios e ligas esportivas</li>
+      <li>Aulas de natação para iniciantes e nadadores avançados</li>
+      <li>Aulas em grupo de condicionamento físico, como aeróbica, yoga e Zumba</li>
+      <li>Sessões de treinamento personalizado</li>
+      <li>Camps e workshops esportivos</li>
+      <li>Eventos especiais e palestras de convidados sobre temas relacionados a esportes e condicionamento físico</li>
+    </ul>
 
-		<h2>Associação e Reservas</h2>
-		<p>O CEFER oferece opções de associação para indivíduos e grupos interessados em utilizar as instalações e participar dos programas. As associações podem ser obtidas entrando em contato com a administração do CEFER. Além disso, as instalações podem ser reservadas para horários específicos ou eventos. A disponibilidade e os detalhes de reserva podem ser obtidos através do site do CEFER ou entrando em contato diretamente com o centro.</p>
+    <h2>Associação e Reservas</h2>
+    <p>O CEFER oferece opções de associação para indivíduos e grupos interessados em utilizar as instalações e participar dos programas. As associações podem ser obtidas entrando em contato com a administração do CEFER. Além disso, as instalações podem ser reservadas para horários específicos ou eventos. A disponibilidade e os detalhes de reserva podem ser obtidos através do site do CEFER ou entrando em contato diretamente com o centro.</p>
 
-			<h2>Visite o CEFER</h2>
-			<p>Se você está interessado em experimentar as instalações esportivas e recreativas oferecidas pelo CEFER, convidamos você a nos visitar no campus da USP em São Carlos. Nossa equipe simpática terá prazer em fornecer mais informações e ajudá-lo a iniciar sua jornada fitness.</p>
+    <h2>Visite o CEFER</h2>
+    <p>Se você está interessado em experimentar as instalações esportivas e recreativas oferecidas pelo CEFER, convidamos você a nos visitar no campus da USP em São Carlos. Nossa equipe simpática terá prazer em fornecer mais informações e ajudá-lo a iniciar sua jornada fitness.</p>
+  </main>
 
-	</main>
+  <script>
+    var imageContainer = document.querySelector(".image-container");
+    var imageSelect = document.getElementById("image-select");
+    var images = imageContainer.querySelectorAll("img");
+
+    var currentIndex = 0;
+
+    // Set the initial image
+    displayImage(currentIndex);
+
+    // Function to display the selected image
+    function displaySelectedImage() {
+      currentIndex = imageSelect.value;
+      displayImage(currentIndex);
+    }
+
+    // Function to display the image at the specified index
+    function displayImage(index) {
+      for (var i = 0; i < images.length; i++) {
+        images[i].style.display = "none";
+      }
+
+      images[index].style.display = "block";
+    }
+
+    // Function to change the image every 5 seconds
+    function changeImage() {
+      currentIndex++;
+      if (currentIndex >= images.length) {
+        currentIndex = 0;
+      }
+
+      displayImage(currentIndex);
+    }
+
+    setInterval(changeImage, 5000);
+  </script>
 </body>
+
 </html>
