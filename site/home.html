@@ -4,23 +4,100 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Cefácil - Book Sports Spaces</title>
-	<link rel="stylesheet" href="style.css">
-</head>
-<body>
-	<header>
-        <h1>Cefácil</h1>
+	<style>
+        body {
+          font-family: Arial, sans-serif;
+          margin: 0;
+          padding: 0;
+        }
+    
+        header {
+          background-color: #007bff;
+          color: #fff;
+          padding: 10px;
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+        }
+    
+        header h1 {
+          display: flex;
+          align-items: center;
+          font-size: 20px;
+          margin-left: 4vw;
+        }
+    
+        header h1 img {
+          width: 10vw;
+          height: 10vw;
+          border-radius: 50%;
+          margin-left: 4vw;
+          margin-right: 4vw;
+        }
+    
+        header nav ul {
+          display: flex;
+          list-style: none;
+          margin: 0;
+          padding: 0;
+        }
+    
+        header nav ul li {
+          margin-right: 5vw;
+        }
+    
+        header nav ul li a {
+          color: #fff;
+          text-decoration: none;
+        }
+    
+        main {
+          max-width: 800px;
+          margin: 20px auto;
+          padding: 0 20px;
+        }
+    
+        h2 {
+          color: #007bff;
+          font-size: 24px;
+          margin-top: 30px;
+        }
+    
+        p {
+          line-height: 1.5;
+          margin-bottom: 20px;
+        }
+    
+        ul {
+          margin-bottom: 20px;
+        }
+    
+        ul li {
+          list-style: disc;
+          margin-left: 20px;
+        }
+      </style>
+    </head>
+    
+    <body>
+      <header>
+        <h1>
+          <img src="imgs/logoCEFER.jpeg" alt="CEFER Logo">
+          CEFER - USP
+        </h1>
         <nav>
-            <ul>
-                <li><a href="cefer.html">CEFER</a></li>
-                <li><a href="home.html">Reservar</a></li>
-                <li><a href="about.html">Sobre Nós</a></li>
-            </ul>
+          <ul>
+            <li><a href="cefer.html">CEFER</a></li>
+            <li><a href="home.html">Reservar</a></li>
+            <li><a href="about.html">Sobre Nós</a></li>
+          </ul>
         </nav>
-    </header>
+      </header>
 	<main>
 		<section>
 			<h2>Reservar espaços esportivos</h2>
-			<p>Use o calendário abaixo para reservar espaços físicos em nossa universidade para prática e treinamento esportivo.</p>
+			<p>Use o calendário abaixo para ver os espaços físicos disponíveis em nossa universidade para prática e treinamento esportivo.</p>
+            <p>Para reservar algum espaço, preencha o <a href="https://docs.google.com/forms/d/1y04oLFEBABJPmNwnHMiezx-f9KxPb_EMx7QqcGkMfd4/viewform?edit_requested=true">forms</a>.</p>
 			<div id="calendar">
 
                 <iframe src="https://calendar.google.com/calendar/embed?height=600&wkst=1&bgcolor=%23ffffff&ctz=America%2FSao_Paulo&src=dGVzdGVjZWZhY2lsQGdtYWlsLmNvbQ&src=YWRkcmVzc2Jvb2sjY29udGFjdHNAZ3JvdXAudi5jYWxlbmRhci5nb29nbGUuY29t&src=cHQtYnIuYnJhemlsaWFuI2hvbGlkYXlAZ3JvdXAudi5jYWxlbmRhci5nb29nbGUuY29t&color=%23039BE5&color=%2333B679&color=%230B8043" style="border:solid 1px #777" width="800" height="600"></iframe>
